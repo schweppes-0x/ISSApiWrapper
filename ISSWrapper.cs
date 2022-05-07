@@ -48,8 +48,8 @@ namespace ISSWrapper
         /// </summary>
         /// <param name="latitude"></param>
         /// <param name="longitude"></param>
-        /// <returns>Instance of the <see cref="Coordinate"/> class.</returns>
-        public static async Task<Coordinate> GetCoordinateAsync(float latitude, float longitude) => await GetApiDataAsync<Coordinate>(ApiUrls._satelliteCoordinateEndpoint(latitude, longitude));
+        /// <returns>Instance of the <see cref="CoordinateData"/> class.</returns>
+        public static async Task<CoordinateData> GetCoordinateDataAsync(float latitude, float longitude) => await GetApiDataAsync<CoordinateData>(ApiUrls._satelliteCoordinateEndpoint(latitude, longitude));
         private static async Task<T> GetApiDataAsync<T>(string url)
         {
             try	

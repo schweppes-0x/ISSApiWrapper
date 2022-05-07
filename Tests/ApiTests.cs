@@ -26,17 +26,17 @@ public class ApiTests
         float latitude= 37.795517f;
         float longitude = -122.393693f;
         
-        var foundSatellite = await ISSWrapper.IssWrapper.GetCoordinateAsync(latitude,longitude);
+        var foundData = await ISSWrapper.IssWrapper.GetCoordinateDataAsync(latitude,longitude);
 
         var extectedTimeZoneId = "America/Los_Angeles";
         var expectedOffset = -7;
         var exptectedCountryCode = "US";
 
-        var actualTimeZoneId = foundSatellite.TimeZone;
-        var actualOffset = foundSatellite.Offset;
-        var actualCountryCode = foundSatellite.CountryCode;
+        var actualTimeZoneId = foundData.TimeZone;
+        var actualOffset = foundData.Offset;
+        var actualCountryCode = foundData.CountryCode;
         
-        Assert.True(foundSatellite != null);
+        Assert.True(foundData != null);
         
         Assert.Equal(extectedTimeZoneId, actualTimeZoneId);
         Assert.Equal(expectedOffset, actualOffset);
@@ -62,9 +62,9 @@ public class ApiTests
     [Fact]
     public async void GetSatelliteTLES()
     {
-        var satelliteData = await ISSWrapper.IssWrapper.GetSatelliteTlesAsync();
+        var satelliteTles = await ISSWrapper.IssWrapper.GetSatelliteTlesAsync();
         
-        Assert.True(satelliteData != null);
-        Assert.True(satelliteData.Header == "ISS (ZARYA)");
+        Assert.True(satelliteTles != null);
+        Assert.True(satelliteTles.Header == "ISS (ZARYA)");
     }
 }

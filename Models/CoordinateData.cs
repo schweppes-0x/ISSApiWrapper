@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 
 namespace ISSWrapper
 {
-    public class Coordinate
+    public class CoordinateData
     {
         [JsonProperty("latitude")]
         public double Latitude { get; set; }

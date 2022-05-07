@@ -75,7 +75,7 @@
     <ItemGroup>
         <Compile Include="ApiUrls.cs" />
         <Compile Include="ISSWrapper.cs" />
-        <Compile Include="Models\Coordinate.cs" />
+        <Compile Include="Models\CoordinateData.cs" />
         <Compile Include="Models\SatelliteBase.cs" />
         <Compile Include="Models\SatelliteData.cs" />
         <Compile Include="Models\SatelliteTles.cs" />
