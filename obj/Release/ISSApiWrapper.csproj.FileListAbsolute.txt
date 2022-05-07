@@ -1,0 +1,9 @@
+C:\Users\tony\RiderProjects\ISSApiWrapper\bin\Release\ISSApiWrapper.dll
+C:\Users\tony\RiderProjects\ISSApiWrapper\bin\Release\ISSApiWrapper.pdb
+C:\Users\tony\RiderProjects\ISSApiWrapper\bin\Release\Newtonsoft.Json.dll
+C:\Users\tony\RiderProjects\ISSApiWrapper\bin\Release\Newtonsoft.Json.xml
+C:\Users\tony\RiderProjects\ISSApiWrapper\obj\Release\ISSApiWrapper.csproj.AssemblyReference.cache
+C:\Users\tony\RiderProjects\ISSApiWrapper\obj\Release\ISSApiWrapper.csproj.CoreCompileInputs.cache
+C:\Users\tony\RiderProjects\ISSApiWrapper\obj\Release\ISSApiWrapper.csproj.CopyComplete
+C:\Users\tony\RiderProjects\ISSApiWrapper\obj\Release\ISSApiWrapper.dll
+C:\Users\tony\RiderProjects\ISSApiWrapper\obj\Release\ISSApiWrapper.pdb

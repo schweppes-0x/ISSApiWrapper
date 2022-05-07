@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ff458d86-4178-4d77-824c-d859da088ccc": {
+      "ProjectGuid": "ff458d86-4178-4d77-824c-d859da088ccc",
+      "DisplayName": "ISSApiWrapper",
+      "ColorIndex": 0
+    },
+    "7786249e-c627-4bed-9925-00fbbcf4ab80": {
+      "ProjectGuid": "7786249e-c627-4bed-9925-00fbbcf4ab80",
+      "DisplayName": "Tests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
