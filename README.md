@@ -37,7 +37,7 @@ var timestamps = new int[]
             1436029902
         };
         
-SatelliteData satelliteData = await ISSWrapper.IssWrapper.GetPositionsAsync(timestamps);
+SatelliteData[] satelliteData = await ISSWrapper.IssWrapper.GetPositionsAsync(timestamps);
         
 ```
 ---
